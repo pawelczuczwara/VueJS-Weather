@@ -17,7 +17,7 @@ export default {
     return {
       filename: 'App.vue',
       weather_data: {
-        location: "California",
+        location: "Barcelona",
         temperature: {
           current: "35 C",
         },
