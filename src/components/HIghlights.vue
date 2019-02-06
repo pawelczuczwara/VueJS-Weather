@@ -2,7 +2,7 @@
   <div id="highlights">
     <p>Weather Highlights:</p>
     {{ highlights }}
-    <uv-index :highlights="highlights"></uv-index>
+    <uv-index :highl="highlights"></uv-index>
     <visibility :highlights="highlights"></visibility>
     <wind-status :highlights="highlights"></wind-status>
   </div>

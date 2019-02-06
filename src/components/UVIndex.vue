@@ -7,10 +7,10 @@
 <script>
 
 export default {
-  props: ["highlights"],
+  props: ["highl"],
   data () {
     return {
-      uvindex: this.highlights.uvindex
+      uvindex: this.highl.uvindex
     }
   },
   methods: {
